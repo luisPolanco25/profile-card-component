@@ -8,4 +8,4 @@ This is my solution for a challenge made by Frontend Mentor's website. This is n
 
 ## Live preview
 
-https://luispolanco25.github.io/3-column-preview/
+https://luispolanco25.github.io/profile-card-component/
