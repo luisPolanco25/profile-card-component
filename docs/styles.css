@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #626365;
+}
+
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100%;
+    width: 100%;
+}
+
+main {
+    background-color: #19A1AD;
+    max-width: 75%;
+    height: 720px;
+    min-height: 200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+#bg-top {
+    position: relative;
+    z-index: 1;
+    bottom: 480px;
+    right: 230px;
+}
+
+#bg-bottom {
+    position: relative;
+    z-index: 1;
+    bottom: 605px;
+    left: 675px;
+}
+
+.bolder {
+    font-weight: 800;
+    color: #333;
+}
+
+#card {
+    border-radius: 15px;
+    background-color: white;
+    min-width: 320px;
+    min-height: 325px;
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    top: 320px;
+    left: 795px;
+    overflow: hidden;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+#profile-background img {
+    max-height: 130px;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#victor {
+    position: absolute;
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid white;
+    align-self: center;
+    top: 74px;
+}
+
+#bio {
+    border-bottom: 1px solid #ccc;
+    padding: 65px 60px 0px 60px;
+    text-align: center;
+}
+
+#bio span {
+    margin-right: 2px;
+}
+
+#country {
+    font-size: 14px;
+    padding: 10px 0px 20px 0px;
+}
+
+#social {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px;
+    text-align: center;
+}
+
+#social div {
+    flex-basis: 33.33%;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:450px) {
+
+    html {
+        height: 100vh;
+    }
+
+    main {
+        max-width: none;
+        width: 100%;
+        max-height: 30%;
+        margin: 0px 0px 40px 0px
+    }
+
+    #bg-top {
+        position: relative;
+        z-index: 1;
+        bottom: 548px;
+        right: 718px;
+    }
+
+    #bg-bottom {
+        position: relative;
+        z-index: 1;
+        bottom: 605px;
+        left: 200px;
+    }
+
+    #card {
+        max-width: none;
+        min-height: none;
+        top: 241px;
+        left: 64px;
+    }
+
+}
