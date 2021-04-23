@@ -91,14 +91,6 @@ small {
     flex-basis: 33.33%;
 }
 
-.attribution {
-    font-size: 11px; 
-    text-align: center;
-}
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
-
 @media (max-width:450px) {
 
     main {
