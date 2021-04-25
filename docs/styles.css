@@ -93,6 +93,10 @@ small {
 
 @media (max-width:800px) {
 
+    body {
+        overflow: hidden;
+    }
+
     main {
         max-width: none;
         width: 100%;
