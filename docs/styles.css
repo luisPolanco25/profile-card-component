@@ -91,17 +91,17 @@ small {
     flex-basis: 33.33%;
 }
 
-@media (max-width:450px) {
+@media (max-width:800px) {
 
     main {
         max-width: none;
         width: 100%;
-        max-height: 30%;
+        height: 100vh;
         background: 
         -239px -164px / 100% no-repeat url('./images/bg-pattern-top.svg'),
         216px 390px / 100% no-repeat url('./images/bg-pattern-bottom.svg');
         background-color: #19A1AD;
-        margin: 0px 0px 30px 0px;
+        margin: 0px;
     }
 
     #card {
